@@ -18,5 +18,5 @@ def SensorData ():
         print([CurrentTime, temp, pressure, temp_press, humidity, temp_hum, cpu_temp], file=f)
     return;
 
-for i in range(2880): # Invoke SensorData() every 30 seconds, for 24 hours
+While True: # Invoke SensorData() every 30 seconds, until halted
     SensorData()
