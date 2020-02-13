@@ -9,3 +9,6 @@ Version 1 of Sensors.py: prints sensor values to file.txt when ran
 
 Version 2 of Sensors.py: Invokes SensorData() every 30 seconds, for 24 hours when ran
 Version 2 has most of the code from V1 now in a function. Plan for version 3 is continuous operation
+
+Version 3 of Sensors.py: Runs continously
+Replaced the for loop with a while True.
